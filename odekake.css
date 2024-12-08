@@ -67,6 +67,8 @@ p.odekake{
       width: 100%; /* 幅を100%にして、画面幅に合わせる */
       padding: 12px;
       font-size: 14px;
+    appearance: unset;
+    display: block; 
   }}
 #map {
   margin-top: 20px; 
