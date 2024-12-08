@@ -63,13 +63,22 @@ p.odekake{
   cursor: pointer;
 }
 @media (max-width: 768px) {
+  .select {
+    position: relative;  /* position を保持したい場合 */
+    right: 0; /* 右方向のずれを解除 */
+    width: 100%; /* 幅を100%にする */
+  }
   .select select {
-      width: 100%; /* 幅を100%にして、画面幅に合わせる */
-      padding: 12px;
-      font-size: 14px;
-    appearance: unset;
-    display: block; 
-  }}
+    width: 100%; /* 幅を100%にして、画面幅に合わせる */
+    padding: 12px;
+    font-size: 14px;
+    appearance: unset; /* appearanceを解除 */
+    background: none;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+}
+
 #map {
   margin-top: 20px; 
   width: 100%;
