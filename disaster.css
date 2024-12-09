@@ -63,6 +63,12 @@ p.disaster{
   background: #fff;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .select select {
+      width: 100%; /* 幅を100%にして、画面幅に合わせる */
+      padding: 12px;
+      font-size: 14px;
+  }}
 #map {
   margin-top: 20px; 
   width: 100%;
